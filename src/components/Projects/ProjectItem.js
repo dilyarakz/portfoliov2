@@ -6,7 +6,7 @@ export default function ProjectItem({
   title,
   techs,
   codelink,
-  livelink,
+  livelink
 }) {
   return (
     <Card style={{ width: "18rem" }}>
@@ -21,7 +21,7 @@ export default function ProjectItem({
       </Card.Body>
       <Card.Body>
         <Card.Link href={codelink}>Code</Card.Link>
-        {livelink !== "#" ?  <Card.Link href={livelink}>Live</Card.Link> : <></>}
+        {livelink !== "#" ? <Card.Link href={livelink}>Live</Card.Link> : <></>}
       </Card.Body>
     </Card>
   );

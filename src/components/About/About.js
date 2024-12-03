@@ -47,7 +47,7 @@ export default function About() {
                 designing reliable and efficient server-side applications.
               </li>
               <li>
-                <strong>Other Technologies:</strong>Angular, Python – able to
+                <strong>Other Technologies:</strong> Angular, Python – able to
                 quickly adapt to different stacks when needed. Tools: Git,
                 Docker, SQL – ensuring code quality, collaboration, and
                 effective version control.
