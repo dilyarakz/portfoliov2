@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+.responsive-text {
+  font-size: 16px;
+  color: #888888;
+  font-family: "Open Sans", Verdana, Tahoma, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .responsive-text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-text {
+    font-size: 27px;
+  }
+}
+
+.responsive-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  color: "#3E3E3E";
+  font-family: "Open Sans", Verdana, Tahoma, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .responsive-title {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-title {
+    font-size: 45px;
+  }
+}
+
+#about {
+  padding: 7rem 3rem 7rem 3rem;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 453px;
+  height: auto;
+  border-radius: 50%;
+}

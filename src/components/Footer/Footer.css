@@ -1,0 +1,36 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem;
+  min-height: 10rem;
+  background-color: #303030;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icon-size {
+  font-size: 40px;
+}
+
+.icon-linked-in {
+  color: #0077b5;
+  transition: transform 0.3s ease;
+}
+
+.icon-git {
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.resume-link {
+  color: #43b3e0;
+  transition: transform 0.3s ease;
+}
