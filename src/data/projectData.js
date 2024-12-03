@@ -13,14 +13,6 @@ const projects = [
   },
   {
     id: 2,
-    imageLink: pic02,
-    title: "NetFlix Copy",
-    techs: "React, JavaScript, CSS, HTML",
-    codelink: "https://github.com/dilyarakz/netflix-clone-page",
-    livelink: "https://exquisite-boba-5b1bef.netlify.app/",
-  },
-  {
-    id: 3,
     imageLink: pic03,
     title: "REST API",
     techs: "Spring Boot, Java, JUnit, Mockito",

@@ -21,7 +21,7 @@ export default function ProjectItem({
       </Card.Body>
       <Card.Body>
         <Card.Link href={codelink}>Code</Card.Link>
-        <Card.Link href={livelink}>Live</Card.Link>
+        {livelink !== "#" ?  <Card.Link href={livelink}>Live</Card.Link> : <></>}
       </Card.Body>
     </Card>
   );
