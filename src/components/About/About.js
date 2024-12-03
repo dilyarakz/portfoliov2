@@ -27,13 +27,32 @@ export default function About() {
               Hi, I'm <strong>Dilyara Tulegenova</strong>
             </h1>
             <p className="responsive-text">
-              Junior Software Developer based in the United States. I’m
-              passionate about coding and solving complex problems. With an
-              interest in both front-end and back-end development, I enjoy
-              working on projects that challenge my skills and foster growth.
-              Outside of tech, I love traveling, skiing, skating, and
-              hiking—activities that keep me energized and inspired.
+              I am a passionate software developer with expertise in Java and
+              React, specializing in creating dynamic and scalable web
+              applications. My experience spans both front-end and back-end
+              development, allowing me to build seamless full-stack solutions
+              that are both robust and user-friendly.
             </p>
+            <h4 className="responsive-text">
+              <strong>Core Technologies:</strong>
+            </h4>
+            <ul className="responsive-text">
+              <li>
+                <strong>Front-end Development:</strong> React, JavaScript, HTML,
+                CSS, Redux – crafting responsive, interactive UIs that deliver
+                exceptional user experiences.
+              </li>
+              <li>
+                <strong>Back-end Development:</strong> Java, Spring Boot –
+                designing reliable and efficient server-side applications.
+              </li>
+              <li>
+                <strong>Other Technologies:</strong>Angular, Python – able to
+                quickly adapt to different stacks when needed. Tools: Git,
+                Docker, SQL – ensuring code quality, collaboration, and
+                effective version control.
+              </li>
+            </ul>
           </div>
         </Col>
       </Row>
