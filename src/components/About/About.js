@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "./About.css";
+import Image from 'react-bootstrap/Image';
 import aboutImage from "../../assets/images/picture.jpeg";
 import cat from "../../assets/images/cat.jpg";
 
@@ -15,7 +16,8 @@ export default function About() {
           md={6}
           className="d-flex justify-content-center align-items-center"
         >
-          <img src={aboutImage} alt={cat} className="about-image" />
+          
+          <Image src={aboutImage} roundedCircle className="about-image" />
         </Col>
         <Col
           xs={12}
