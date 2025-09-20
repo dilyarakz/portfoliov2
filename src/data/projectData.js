@@ -1,23 +1,25 @@
-import pic01 from "../assets/images/pic01.png";
-import pic02 from "../assets/images/pic02.png";
-import pic03 from "../assets/images/pic03.png";
+// import movieApp from "../../assets/movieApp.png";
+// import todoApp from "../../assets/todoApp.png";
+
+import movieApp from "../assets/movieApp.png";
+import todoApp from "../assets/todoApp.png";
 
 const projects = [
   {
     id: 1,
-    imageLink: pic01,
+    imageLink: movieApp,
     title: "Movie Search App",
-    techs: "React, JavaScript, Redux, CSS, HTML",
-    codelink: "https://github.com/dilyarakz/moviedb",
-    livelink: "https://sleepy-jones-e0b133.netlify.app/",
+    techs: "React, JavaScript, Appwrite, CSS, HTML",
+    codelink: "https://github.com/dilyarakz/movieApp",
+    livelink: "https://dilyarakz.github.io/movieApp/",
   },
   {
     id: 2,
-    imageLink: pic03,
-    title: "REST API",
-    techs: "Spring Boot, Java, JUnit, Mockito",
-    codelink: "https://github.com/dilyarakz/register-flights-rest-api",
-    livelink: "#",
+    imageLink: todoApp,
+    title: "Todo App",
+    techs: "JavaScript, CSS, HTML",
+    codelink: "https://github.com/dilyarakz/todoApp",
+    livelink: "https://dilyarakz.github.io/todoApp/",
   },
 ];
 

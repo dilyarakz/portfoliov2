@@ -4,8 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "./About.css";
 import Image from 'react-bootstrap/Image';
-import aboutImage from "../../assets/images/picture.jpeg";
-import cat from "../../assets/images/cat.jpg";
+import picture from "../../assets/picture.jpg";
 
 export default function About() {
   return (
@@ -17,7 +16,7 @@ export default function About() {
           className="d-flex justify-content-center align-items-center"
         >
           
-          <Image src={aboutImage} roundedCircle className="about-image" />
+          <Image src={picture} roundedCircle className="about-image" />
         </Col>
         <Col
           xs={12}
